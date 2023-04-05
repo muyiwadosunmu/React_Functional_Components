@@ -3,14 +3,14 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import ClassMouse from "./ClassComponents/ClassMouse";
-import FuncMouse from "./FuncComponents/FuncMouse";
+import MouseContainer from "./FuncComponents/MouseContainer";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
       {/* <ClassMouse /> */}
-      <FuncMouse />
+      <MouseContainer />
     </div>
   );
 }
