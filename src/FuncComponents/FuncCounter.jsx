@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+/**useEffect */
 const FuncCounter = () => {
   useEffect(() => {
     document.title = `You clicked ${count} times`;
