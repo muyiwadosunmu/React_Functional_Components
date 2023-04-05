@@ -2,15 +2,16 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import ClassMouse from "./ClassComponents/ClassMouse";
-import MouseContainer from "./FuncComponents/MouseContainer";
+import IntervalClassCounter from "./ClassComponents/IntervalClassCounter";
+import IntervalHook from "./FuncComponents/IntervalHook";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      {/* <ClassMouse /> */}
-      <MouseContainer />
+      <IntervalClassCounter />
+      <IntervalHook />
     </div>
   );
 }
